@@ -1,0 +1,67 @@
+{
+    "comments": [
+        {
+            "username": "Myra Utt",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Wow, that was one of the quickest replies! I really appreciate it."
+        },
+        {
+            "username": "Natacha Hinkle",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "I would recommend it to others, thanks so much Max."
+        },
+        {
+            "username": "Janiece Yau",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "I love the dress that Nora made for me!"
+        },
+        {
+            "username": "Dolores Mejía",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Great service so far!"
+        },
+        {
+            "username": "Juan Pérez",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "She did a really nice job with my shirts."
+        },
+        {
+            "username": "Francisco López",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!"
+        }
+    ],
+    "categories":[
+        {
+            "nombre": "Restaurants",
+            "icon": "<icon>"
+        },
+        {
+            "nombre": "Technology",
+            "icon": "<icon>"
+        },
+        {
+            "nombre": "Trading",
+            "icon": "<icon>"
+        },
+        {
+            "nombre": "Transportation",
+            "icon": "<icon>"
+        },{
+            "nombre": "Teaching",
+            "icon": "<icon>"
+        }
+    ]
+}
