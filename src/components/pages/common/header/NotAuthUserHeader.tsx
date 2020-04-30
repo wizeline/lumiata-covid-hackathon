@@ -10,7 +10,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header-body'>
-            <img className='logo' src={require('./Logo.png')} alt=""/>
+            {/* <img className='logo' src={require('public/icons/ComunidadLogo.png')} alt=""/> */}
             <Button className='login-btn'>Login</Button>
             <Button className='' type='primary'>Register</Button>
         </div>
