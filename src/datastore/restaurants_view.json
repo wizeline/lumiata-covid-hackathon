@@ -2,7 +2,7 @@
     "restaurants":[
         {
             "name": "Terrible Juan",
-            "ratign": "4",
+            "rating": "4",
             "restaurant_type": "Coffee shop",
             "job_type": "Bartender",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Bruna",
-            "ratign": "5",
+            "rating": "5",
             "restaurant_type": "Mexican International",
             "job_type": "Chef",
             "job_schedule": "Tue - Sun from 15:00 to 23:00 hrs",
@@ -18,7 +18,7 @@
         },
         {
             "name": "El Italiano",
-            "ratign": "4",
+            "rating": "4",
             "restaurant_type": "Italian",
             "job_type": "General Manager",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Porfirio's Guadalajara",
-            "ratign": "5",
+            "rating": "5",
             "restaurant_type": "Mexican",
             "job_type": "Waiter/Waitress",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
@@ -34,7 +34,7 @@
         },
         {
             "name": "La Pastería",
-            "ratign": "4",
+            "rating": "4",
             "restaurant_type": "Coffee shop",
             "job_type": "Waiter/Waitress",
             "job_schedule": "Mon - Fri from 12:00 to 21:00 hrs",
@@ -42,7 +42,7 @@
         },
         {
             "name": "Pizza del Perro Negro",
-            "ratign": "4",
+            "rating": "4",
             "restaurant_type": "Pizza",
             "job_type": "Kitchen Manager",
             "job_schedule": "Mon - Sat from 13:00 to 20:00 hrs",
