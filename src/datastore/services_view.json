@@ -1,50 +1,44 @@
 {
     "restaurants":[
         {
-            "name": "Terrible Juan",
+            "name": "Juan Hernández",
             "rating": "4",
-            "restaurant_type": "Coffee shop",
-            "job_type": "Bartender",
+            "service_type": "Plumbing",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
             "location": "Americana"
         },
         {
-            "name": "Bruna",
+            "name": "Jovita Gutiérrez",
             "rating": "5",
-            "restaurant_type": "Mexican International",
-            "job_type": "Chef",
+            "service_type": "Satrery",
             "job_schedule": "Tue - Sun from 15:00 to 23:00 hrs",
             "location": "Americana"
         },
         {
-            "name": "El Italiano",
+            "name": "Rosa Hernández",
             "rating": "4",
-            "restaurant_type": "Italian",
-            "job_type": "General Manager",
+            "service_type": "Daycare",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
             "location": "Monraz"
         },
         {
-            "name": "Porfirio's Guadalajara",
+            "name": "Julia Cervantes",
             "rating": "5",
-            "restaurant_type": "Mexican",
-            "job_type": "Waiter/Waitress",
+            "service_type": "IT consulting",
             "job_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
             "location": "Providencia"
         },
         {
-            "name": "La Pastería",
+            "name": "Carmen Rosas",
             "rating": "4",
-            "restaurant_type": "Coffee shop",
-            "job_type": "Waiter/Waitress",
+            "service_type": "Sastrery",
             "job_schedule": "Mon - Fri from 12:00 to 21:00 hrs",
             "location": "Providencia"
         },
         {
-            "name": "Pizza del Perro Negro",
+            "name": "Vicente Laguna",
             "rating": "4",
-            "restaurant_type": "Pizza",
-            "job_type": "Kitchen Manager",
+            "service_type": "Plumbing",
             "job_schedule": "Mon - Sat from 13:00 to 20:00 hrs",
             "location": "Americana"
         }
