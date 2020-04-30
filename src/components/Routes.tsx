@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Dashboard from './pages/dashboard/Dashboard';
 import Profile from './Profile';
 import Browse from './pages/browse/Browse';
-import Job from './Job';
-import Service from './Service';
+import Job from './pages/job/Job';
 import Success from './Success';
 import NotFound from './NotFound';
 
@@ -17,7 +16,7 @@ const Routes = () => {
                 <Route exact path="/profile" component={Profile} />
                 <Route exact path="/browse" component={Browse} />
                 <Route exact path="/job" component={Job} />
-                <Route exact path="/service" component={Service} />
+                <Route exact path="/service" component={Job} />
                 <Route exact path="/success" component={Success} />
                 <Route exact path="/404" component={NotFound} />
                 <Redirect to="/404" />

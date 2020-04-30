@@ -1,9 +1,9 @@
 import React from 'react';
-import { Layout, Row } from 'antd';
+import { Layout } from 'antd';
 import 'antd/dist/antd.css';
 import SearchBars from './SearchBars';
 import Selector from './Selector';
-import CommunityReviews from './CommunityReviews';
+import CommunityReviews from '../common/reviews/CommunityReviews';
 
 const { Content } = Layout;
 

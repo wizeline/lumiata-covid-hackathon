@@ -8,24 +8,24 @@ const CommunityReviews = () => {
             <Col span={24}>
                 <Row>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 1</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 2</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 3</Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 4</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 5</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Review 6</Card>
                     </Col>
                 </Row>
             </Col>

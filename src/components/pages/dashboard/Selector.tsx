@@ -8,21 +8,21 @@ const Selector = () => {
             <Col span={24}>
                 <Row>
                     <Col span={12}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Job</Card>
                     </Col>
                     <Col span={12}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Service</Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Restaurant</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Tech</Card>
                     </Col>
                     <Col span={8}>
-                        <Card hoverable></Card>
+                        <Card hoverable>Learning</Card>
                     </Col>
                 </Row>
             </Col>
