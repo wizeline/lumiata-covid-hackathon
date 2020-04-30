@@ -1,0 +1,46 @@
+{
+    "restaurants":[
+        {
+            "name": "Juan Hernández",
+            "rating": "4",
+            "service_type": "Plumbing",
+            "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "location": "Americana"
+        },
+        {
+            "name": "Jovita Gutiérrez",
+            "rating": "5",
+            "service_type": "Satrery",
+            "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
+            "location": "Americana"
+        },
+        {
+            "name": "Rosa Hernández",
+            "rating": "4",
+            "service_type": "Daycare",
+            "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "location": "Monraz"
+        },
+        {
+            "name": "Julia Cervantes",
+            "rating": "5",
+            "service_type": "IT consulting",
+            "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "location": "Providencia"
+        },
+        {
+            "name": "Carmen Rosas",
+            "rating": "4",
+            "service_type": "Sastrery",
+            "business_hours": "Mon - Fri from 12:00 to 21:00 hrs",
+            "location": "Providencia"
+        },
+        {
+            "name": "Vicente Laguna",
+            "rating": "4",
+            "service_type": "Plumbing",
+            "business_hours": "Mon - Sat from 13:00 to 20:00 hrs",
+            "location": "Americana"
+        }
+    ]
+}

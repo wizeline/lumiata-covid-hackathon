@@ -1,0 +1,51 @@
+{
+    "name": "Jovita Gutiérrez",
+    "rating": "5",
+    "service_type": "Satrery",
+    "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
+    "location": "Americana",
+    "comments": [
+        {
+            "username": "Myra Utt",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Wow, that was one of the quickest replies! I really appreciate it."
+        },
+        {
+            "username": "Natacha Hinkle",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "I would recommend it to others, thanks so much Jovita."
+        },
+        {
+            "username": "Janiece Yau",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "I love the dress that Jovita made for me!"
+        },
+        {
+            "username": "Dolores Mejía",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Great service so far!"
+        },
+        {
+            "username": "Juan Pérez",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "She did a really nice job with my shirts."
+        },
+        {
+            "username": "Francisco López",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "She made my t-shirt come back to life!"
+        }
+    ]
+}

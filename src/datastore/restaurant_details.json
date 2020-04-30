@@ -1,0 +1,68 @@
+{
+    "name": "Terrible Juan",
+    "ratign": "4",
+    "restaurant_type": "Coffee shop",
+    "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+    "complete_location": "Calle Jose Guadalupe Montenegro 1871 Esquina Colonias, Casa Blanca., Guadalajara 44160 Mexico",
+    "open_job_positions":[
+        {
+            "description": "Bartender",
+            "work_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
+            "pay": 4
+        },
+        {
+            "description": "Waiter/Waitress",
+            "work_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
+            "pay": 3
+        },
+        {
+            "description": "Dishwasher",
+            "work_schedule": "Mon - Fri from 9:00 to 18:00 hrs",
+            "pay": 2
+        }
+    ],
+    "comments":[
+        {
+            "username": "Myra Utt",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 5,
+            "content": "The work environment is awesome!"
+        },
+        {
+            "username": "Natacha Hinkle",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Everyone is really nice with each other :)"
+        },
+        {
+            "username": "Janiece Yau",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 5,
+            "content": "Best working experience I've had"
+        },
+        {
+            "username": "Dolores Mejía",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 5,
+            "content": "My manager really cares about my goals and has done everything he can to help me."
+        },
+        {
+            "username": "Juan Pérez",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "The business operations are great"
+        },
+        {
+            "username": "Francisco López",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "I love that the company has charity campaigns and really care about their people. I'm glad to work here :)"
+        }
+    ]
+}
