@@ -3,9 +3,9 @@
     border-radius: 0px;
     height: 105px;
     width: 100%;
-    padding-top: 24px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 20px 0;
+    border-bottom: 11px solid rgb(0, 155, 222);
+    border-bottom-width: 50%;
 }
 
 .logo {
@@ -22,12 +22,4 @@ button {
     height: 40px;
     width: 176px;
     margin-left: 40px;
-}
-
-.divider {
-    background: rgb(0, 155, 222);
-    border-radius: 5.5px;
-    height: 11px;
-    width: 98%;
-    margin: 0 auto;
 }

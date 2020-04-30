@@ -13,7 +13,6 @@ const Header = () => {
             <img className='logo' src={require('./Logo.png')} alt=""/>
             <Button className='login-btn'>Login</Button>
             <Button className='' type='primary'>Register</Button>
-            <div className='divider'></div>
         </div>
     )
 }
