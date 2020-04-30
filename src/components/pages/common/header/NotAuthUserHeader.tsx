@@ -1,24 +1,25 @@
 import React from 'react';
-import { Layout, Row, Col } from 'antd';
+import { Layout, Row, Col, Button } from 'antd';
 import 'antd/dist/antd.css';
 import Brand from './Brand';
 import Auth from './Auth';
+import './Header.css'
 
-const { Header } = Layout;
+
+
+const Header = () => {
+    return (
+        <div className='header-body'>
+            {/* <img className='logo' src={require('public/icons/ComunidadLogo.png')} alt=""/> */}
+            <Button className='login-btn'>Login</Button>
+            <Button className='' type='primary'>Register</Button>
+        </div>
+    )
+}
 
 const NotAuthUserHeader = () => {
     return (
-        <Header style={{ color: 'white' }}>
-            <Row>
-                <Col span={8}>
-                    <Brand />
-                </Col>
-                <Col span={8}></Col>
-                <Col span={8}>
-                    <Auth />
-                </Col>
-            </Row>
-        </Header>
+        <Header/>
     );
 };
 

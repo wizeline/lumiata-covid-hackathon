@@ -9,8 +9,8 @@ const Dashboard = () => {
     return (
         <div>
             <Layout>
-                <NotAuthUserHeader />
-                <DashboardContent />
+                <NotAuthUserHeader/>
+                <DashboardContent/>
                 <BasicFooter />
             </Layout>
         </div>

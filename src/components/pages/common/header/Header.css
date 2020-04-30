@@ -1,0 +1,25 @@
+.header-body {
+    background: rgb(247, 248, 254);
+    border-radius: 0px;
+    height: 105px;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 11px solid rgb(0, 155, 222);
+    border-bottom-width: 50%;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.login-btn {
+    margin-left: 50%;
+}
+
+button {
+    background: rgb(0, 155, 222);
+    border-radius: 4px;
+    height: 40px;
+    width: 176px;
+    margin-left: 40px;
+}
