@@ -1,0 +1,33 @@
+.header-body {
+    background: rgb(247, 248, 254);
+    border-radius: 0px;
+    height: 105px;
+    width: 100%;
+    padding-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.login-btn {
+    margin-left: 50%;
+}
+
+button {
+    background: rgb(0, 155, 222);
+    border-radius: 4px;
+    height: 40px;
+    width: 176px;
+    margin-left: 40px;
+}
+
+.divider {
+    background: rgb(0, 155, 222);
+    border-radius: 5.5px;
+    height: 11px;
+    width: 98%;
+    margin: 0 auto;
+}
