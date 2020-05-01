@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Redirect } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Dashboard from './pages/dashboard/Dashboard';
@@ -9,6 +9,12 @@ import Success from './Success';
 import NotFound from './NotFound';
 
 const Routes = () => {
+    useEffect(() => {
+        const iconsScript = document.createElement('script');
+        iconsScript.src = 'https://unpkg.com/ionicons@5.0.0/dist/ionicons.js';
+        document.getElementsByTagName('head')[0].appendChild(iconsScript);
+    });
+
     return (
         <Router>
             <Switch>

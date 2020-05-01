@@ -100,22 +100,22 @@
     "categories":[
         {
             "name": "Comida",
-            "icon": "/icons/Categories/Food.png"
+            "icon": "/icons/Restaurants.svg"
         },
         {
             "name": "Tecnología",
-            "icon": "/icons/Categories/Tech.png"
+            "icon": "/icons/Technology.svg"
         },
         {
             "name": "Oficios",
-            "icon": "/icons/Categories/Oficios.png"
+            "icon": "/icons/Services.svg"
         },
         {
             "name": "Transporte",
-            "icon": "/icons/Categories/Transporte.png"
+            "icon": "/icons/Transport.svg"
         },{
             "name": "Aprendizaje",
-            "icon": "/icons/Categories/Aprendizaje.png"
+            "icon": "/icons/Learning.svg"
         }
     ]
 }

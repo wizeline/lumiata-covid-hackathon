@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
-import 'antd/dist/antd.css';
+import React, { useState } from 'react';
+import cx from 'classnames';
 import { SearchBar } from './SearchBars';
 import CommunityReviews from '../common/reviews/CommunityReviews';
 import data from '../../../datastore/landing_page.json';
+import restaurants from '../../../datastore/restaurants_view.json';
+import { MapResults } from './MapResults';
 
 const steps = [
     {
@@ -34,9 +36,23 @@ const SectionTitle: React.FC<{}> = ({children}) => (
     </div>
 );
 
+const searchMap = {
+    'servicios': restaurants.restaurants,
+    'empleos': []
+};
+
+const isActive = (selection: string | null, key: string) => selection && selection === key;
+
 const DashboardContent = () => {
     const [selectedCategory, setCategory] = useState<string | null>(null);
     const [selectedSubcategory, setSubcategory] = useState<string | null>(null);
+    // @ts-ignore
+    const searchResults = searchMap[selectedCategory] || [];
+
+    const updateSubcategory = (name: string) => {
+        window.scrollTo(0, 0);
+        setSubcategory(name);
+    };
 
     return (
         <>
@@ -44,7 +60,7 @@ const DashboardContent = () => {
 
             {selectedSubcategory && selectedCategory && (
                 <div className="section">
-                    Show map here...
+                    <MapResults results={searchResults} />
                 </div>
             )}
 
@@ -57,7 +73,9 @@ const DashboardContent = () => {
                     <div className="section">
                         <div className="columns">
                             <div className="column is-3 is-offset-3">
-                                <div className="box is-shadowless is-pulled-right">
+                                <div className={cx("box is-shadowless is-pulled-right option-type", {
+                                        active: isActive(selectedCategory, 'empleos'),
+                                })}>
                                     <figure className="image is-128x128" onClick={() => setCategory('empleos')}>
                                         <img className="is-rounded" src="/icons/LandingPage/store-icon.png" />
                                     </figure>
@@ -68,7 +86,9 @@ const DashboardContent = () => {
                                 </div>
                             </div>
                             <div className="column is-3">
-                                <div className="box is-shadowless">
+                                <div className={cx("box is-shadowless option-type", {
+                                        active: isActive(selectedCategory, 'servicios'),
+                                })}>
                                     <figure className="image is-128x128" onClick={() => setCategory('servicios')}>
                                         <img className="is-rounded" src="/icons/LandingPage/tools-icon.png" />
                                     </figure>
@@ -102,13 +122,15 @@ const DashboardContent = () => {
                                     {steps.map((step, index) => (
                                         <div key="step.key" className="tile is-parent">
                                             <div className="box">
-                                                <div className="has-text-centered">
-                                                    <span className="is-3 title has-text-info">{index + 1}</span>
+                                                <div className="has-text-centered box is-shadowless container">
+                                                    <span className="is-3 title has-text-info step-number is-rounded">{index + 1}</span>
                                                 </div>
                                                 <figure className="image container is-96x96">
                                                     <img className="is-rounded" src={step.icon || ''} />
                                                 </figure>
-                                                <p className="subtitle is-4">{step.text}</p>
+                                                <div className="box is-shadowless step-description">
+                                                    <p className="subtitle is-4">{step.text}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     ))}
@@ -133,11 +155,13 @@ const DashboardContent = () => {
                                     <div className="column is-1"></div>
                                     {data.categories.map((category, index) => (
                                         <div key={category.name} className="column is-2">
-                                            <div className="box is-shadowless has-background-white-ter">
-                                                <figure className="image is-128x128" onClick={() => setSubcategory(category.name)}>
+                                            <div className="box is-shadowless category-option has-background-white-ter">
+                                                <figure
+                                                    className="image container is-128x128"
+                                                    onClick={() => updateSubcategory(category.name)}>
                                                     <img className="is-rounded" src={category.icon} />
                                                 </figure>
-                                                <p className="subtitle is-4 has-text-centered">
+                                                <p className="subtitle is-4 has-text-centered category-label">
                                                     {category.name}
                                                 </p>
                                             </div>

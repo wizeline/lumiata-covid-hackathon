@@ -21,7 +21,7 @@ export const Navbar: React.FC<{}> = () => {
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-light">
+                                <a className="button">
                                     <strong>Iniciar Session</strong>
                                 </a>
                                 <a className="button is-info">

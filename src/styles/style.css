@@ -1,0 +1,38 @@
+/*This file includes some custom look and feel*/
+
+.step-number {
+    border: 3px solid #3298dc;
+    border-radius: 60%;
+    padding: 20px;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.step-description {
+    margin-top: 20px;
+}
+
+.category-option:hover {
+    text-decoration: underline;
+}
+
+.category-label {
+    margin-top: 1.5rem;
+}
+
+.option-type img {
+    padding: 10px;
+}
+
+.option-type img {
+    border: 3px solid transparent;
+}
+
+.option-type:hover img{
+    border: 3px solid lightblue;
+}
+
+.option-type.active img{
+    border: 3px solid #3298dc;
+}
