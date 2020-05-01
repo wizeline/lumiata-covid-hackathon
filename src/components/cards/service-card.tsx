@@ -6,7 +6,6 @@ interface ServiceCardProps {
 }
 
 export const ServiceCard: React.FC<ServiceCardProps> = ({ item }: ServiceCardProps) => {
-    console.log('service', item);
     return (
         <div className="card">
             <header className="card-header is-shadowless" style={{background: 'rgb(247, 248, 254)'}}>
