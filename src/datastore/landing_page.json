@@ -5,42 +5,64 @@
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "Wow, that was one of the quickest replies! I really appreciate it."
+            "content": "Wow, that was one of the quickest replies! I really appreciate it.",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
         },
         {
             "username": "Natacha Hinkle",
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "I would recommend it to others, thanks so much Max."
+            "content": "I would recommend it to others, thanks so much Max.",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
         },
         {
             "username": "Janiece Yau",
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "I love the dress that Nora made for me!"
+            "content": "I love the dress that Nora made for me!",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
         },
         {
             "username": "Dolores Mejía",
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "Great service so far!"
+            "content": "Great service so far!",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
         },
         {
             "username": "Juan Pérez",
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "She did a really nice job with my shirts."
+            "content": "She did a really nice job with my shirts.",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
         },
         {
             "username": "Francisco López",
             "date": "11/05/20",
             "usertype": "Verified buyer",
             "rating": 4,
-            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!"
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/med/men/1.jpg"
+        },
+        {
+            "username": "Alejandro Ortiz",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/med/men/2.jpg"
+        },
+        {
+            "username": "Miriam Jackson",
+            "date": "11/05/20",
+            "usertype": "Verified buyer",
+            "rating": 4,
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/med/women/2.jpg"
         }
     ],
     "categories":[

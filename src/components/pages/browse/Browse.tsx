@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import Header from '../common/header/AuthUserHeader';
 import SearchBars from './SearchBars';
 import ListMap from './ListMap';
-import Footer from '../common/footer/Footer';
+import {Footer} from '../common/footer/Footer';
 
 const Browse = () => {
     return (

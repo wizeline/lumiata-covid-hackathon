@@ -1,20 +1,25 @@
 import React from 'react';
-import { Col, Row, Input } from 'antd';
-import 'antd/dist/antd.css';
 
-const { Search } = Input;
-
-const SearchBars = () => {
+export const SearchBar = () => {
     return (
-        <Row>
-            <Col span={12}>
-                <Search placeholder="What do you need?" onSearch={(value) => console.log(value)} enterButton />
-            </Col>
-            <Col span={12}>
-                <Search placeholder="Where are you?" onSearch={(value) => console.log(value)} enterButton />
-            </Col>
-        </Row>
-    );
-};
+        <div className="columns">
+            <div className="column is-3 is-offset-3">
+                <div className="field">
+                    <label className="label is-size-3">Qué necesitas?</label>
+                    <div className="control">
+                        <input className="input" type="text" placeholder="Qué necesitas?" />
+                    </div>
+                </div>
 
-export default SearchBars;
+            </div>
+            <div className="column is-3">
+                <div className="field">
+                    <label className="label is-size-3">Dónde?</label>
+                    <div className="control">
+                        <input className="input" type="text" placeholder="Dónde?" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}

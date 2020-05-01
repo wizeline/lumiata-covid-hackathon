@@ -1,35 +1,50 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Col, Row, Card } from 'antd';
 import 'antd/dist/antd.css';
+import {ReviewCard} from '../../../cards/review-card';
+import data from '../../../../datastore/landing_page.json';
 
 const CommunityReviews = () => {
+    const [comments, setComments] = useState<any[]>([]);
+
+    useEffect(() => {
+        if (comments.length <= 0) {
+            setComments(data.comments);
+        }
+    }, [comments]);
+
     return (
-        <Row>
-            <Col span={24}>
-                <Row>
-                    <Col span={8}>
-                        <Card hoverable>Review 1</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 2</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 3</Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span={8}>
-                        <Card hoverable>Review 4</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 5</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 6</Card>
-                    </Col>
-                </Row>
-            </Col>
-        </Row>
+        <div className="hero is-light">
+            <div className="hero-body">
+                <div className="columns">
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[0]}/>
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[1]}/>
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[2]}/>
+                    </div>
+                </div>
+
+                <div className="columns">
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[3]}/>
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[4]}/>
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={data.comments[5]}/>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
