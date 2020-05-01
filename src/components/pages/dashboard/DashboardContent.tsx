@@ -1,52 +1,24 @@
 import React, {useState} from 'react';
 import 'antd/dist/antd.css';
-import {SearchBar} from './SearchBars';
-import Selector from './Selector';
+import { SearchBar } from './SearchBars';
 import CommunityReviews from '../common/reviews/CommunityReviews';
+import data from '../../../datastore/landing_page.json';
 
 const steps = [
     {
         key: 'first',
-        icon: null,
+        icon: '/icons/LandingPage/store-icon.png',
         text: 'Selecciona la categoria que mejor se adapte a lo que necesitas ahora',
     },
     {
         key: 'second',
-        icon: null,
+        icon: '/icons/LandingPage/mac-icon.png',
         text: 'Conecta con el empleo o servicio',
     },
     {
         key: 'third',
-        icon: null,
+        icon: '/icons/LandingPage/clap-hands.png',
         text: 'Cubre lo que necesitas, mientras apoyas a tu comunidad mas cercana',
-    },
-];
-
-const categories = [
-    {
-        key: 'first',
-        icon: null,
-        text: 'Comida',
-    },
-    {
-        key: 'second',
-        icon: null,
-        text: 'Tecnología',
-    },
-    {
-        key: 'third',
-        icon: null,
-        text: 'Oficios',
-    },
-    {
-        key: 'fourth',
-        icon: null,
-        text: 'Transporte',
-    },
-    {
-        key: 'fifth',
-        icon: null,
-        text: 'Aprendizaje',
     },
 ];
 
@@ -85,9 +57,9 @@ const DashboardContent = () => {
                     <div className="section">
                         <div className="columns">
                             <div className="column is-3 is-offset-3">
-                                <div className="box is-shadowless">
+                                <div className="box is-shadowless is-pulled-right">
                                     <figure className="image is-128x128" onClick={() => setCategory('empleos')}>
-                                        <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
+                                        <img className="is-rounded" src="/icons/LandingPage/store-icon.png" />
                                     </figure>
                                     <br/>
                                     <h4 className="subtitle is-6">
@@ -98,7 +70,7 @@ const DashboardContent = () => {
                             <div className="column is-3">
                                 <div className="box is-shadowless">
                                     <figure className="image is-128x128" onClick={() => setCategory('servicios')}>
-                                        <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
+                                        <img className="is-rounded" src="/icons/LandingPage/tools-icon.png" />
                                     </figure>
                                     <br/>
                                     <h4 className="subtitle is-6">
@@ -119,6 +91,8 @@ const DashboardContent = () => {
                         Ahora, más que nunca, <br/>
                         aydemos a fortalcecer nuestra comunidad. <br/>
                         Descubre cómo:
+                        <br/>
+                        <br/>
                     </SectionTitle>
 
                     <div className="hero is-light">
@@ -131,9 +105,10 @@ const DashboardContent = () => {
                                                 <div className="has-text-centered">
                                                     <span className="is-3 title has-text-info">{index + 1}</span>
                                                 </div>
-                                                <p className="subtitle is-4">
-                                                    {step.text}
-                                                </p>
+                                                <figure className="image container is-96x96">
+                                                    <img className="is-rounded" src={step.icon || ''} />
+                                                </figure>
+                                                <p className="subtitle is-4">{step.text}</p>
                                             </div>
                                         </div>
                                     ))}
@@ -156,14 +131,14 @@ const DashboardContent = () => {
                             <div className="section">
                                 <div className="columns">
                                     <div className="column is-1"></div>
-                                    {categories.map((category, index) => (
-                                        <div key="step.key" className="column is-2">
-                                            <div className="box">
-                                                <figure className="image is-128x128" onClick={() => setSubcategory(category.text)}>
-                                                    <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
+                                    {data.categories.map((category, index) => (
+                                        <div key={category.name} className="column is-2">
+                                            <div className="box is-shadowless has-background-white-ter">
+                                                <figure className="image is-128x128" onClick={() => setSubcategory(category.name)}>
+                                                    <img className="is-rounded" src={category.icon} />
                                                 </figure>
                                                 <p className="subtitle is-4 has-text-centered">
-                                                    {category.text}
+                                                    {category.name}
                                                 </p>
                                             </div>
                                         </div>

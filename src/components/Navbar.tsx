@@ -6,7 +6,8 @@ export const Navbar: React.FC<{}> = () => {
             <nav className="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
-                        Comunidad
+                        <img src="/icons/Logo.png" alt="comunidad"/>
+                        <span className="has-text-info is-size-5" style={{marginLeft: '8px'}}>Comunidad</span>
                     </a>
 
                     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation-bar">
