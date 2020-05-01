@@ -110,7 +110,7 @@ const DashboardContent = () => {
                     <SectionTitle>
                         <br/>
                         Now more than ever, <br/>
-                        it's tome to make our community stronger. <br/>
+                        it's to make our community stronger. <br/>
                         Take a look how:
                         <br/>
                         <br/>

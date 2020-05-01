@@ -10,7 +10,7 @@
             "service_type": "Plumbing",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Americana"
+            "location": "Col. Americana, Guadalajara"
         },
         {
             "name": {
@@ -22,7 +22,7 @@
             "service_type": "Tailor",
             "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
             "payment_type": "TDC, and Truekx",
-            "location": "Americana"
+            "location": "Col. Americana, Guadalajara"
         },
         {
             "name": {
@@ -34,7 +34,7 @@
             "service_type": "Daycare",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Monraz"
+            "location": "Col. Monraz, Guadalajara"
         },
         {
             "name": {
@@ -46,7 +46,7 @@
             "service_type": "IT consulting",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Providencia"
+            "location": "Col. Providencia, Guadalajara"
         },
         {
             "name": {
@@ -58,7 +58,7 @@
             "service_type": "Tailor",
             "business_hours": "Mon - Fri from 12:00 to 21:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Providencia"
+            "location": "Col. Providencia, Guadalajara"
         },
         {
             "name": {
@@ -70,7 +70,7 @@
             "service_type": "Plumbing",
             "business_hours": "Mon - Sat from 13:00 to 20:00 hrs",
             "payment_type": "Cash and Truekx",
-            "location": "Americana"
+            "location": "Col. Americana, Guadalajara"
         }
     ]
 }
