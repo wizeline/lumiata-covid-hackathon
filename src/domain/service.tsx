@@ -7,6 +7,7 @@ export interface Service {
     business_hours: string;
     payment_type: string;
     location: string;
+    maps_location: string;
 }
 
 export interface Job {

@@ -21,6 +21,8 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
     const [page, setPage] = useState(0);
     const resultPages = results.length > 3 ? createResultChunks(results, pageSize) : [results];
 
+    const [location, setLocation] = useState('México');
+
     const goPreviousPage = () => {
         if (page > 0) {
             setPage(page - 1);
@@ -32,6 +34,10 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
             setPage(page + 1);
         }
     };
+
+    const updateLocation = (newLocation: string) => {
+        setLocation(newLocation);
+    }
 
     return (
         <div className="columns">
@@ -59,11 +65,11 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
                         if (type === 'servicios') {
                             return (
                                 <div className="box is-shadowless">
-                                    <ServiceCard item={item} key={item.name} />
+                                    <ServiceCard item={item} key={item.name} onClick={(newLocation: string) => updateLocation(newLocation)}/>
                                 </div>
                             );
                         }
-                        return <div className="box is-shadowless"><JobCard item={item} key={item.name} /></div>
+                        return <div className="box is-shadowless"><JobCard item={item} key={item.name}/></div>
                     })}
                     <div className="section">
                         <nav className="pagination is-small is-centered" role="navigation" aria-label="pagination">
@@ -91,7 +97,12 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
                 </div>
             </div>
             <div className="column is-7 is-offset-1">
-                <img src="/Map.png" alt="map" />
+            <iframe id="maps"
+                width="100%"
+                height="100%"
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAljlnyprtCKwmLCW675zJjE2fW_RZMHHs
+                    &q=${location}`}>
+                </iframe>
             </div>
         </div>
     );

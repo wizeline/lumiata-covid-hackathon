@@ -3,11 +3,12 @@ import { Service } from '../../domain/service';
 
 interface ServiceCardProps {
     item: Service;
+    onClick: any;
 }
 
-export const ServiceCard: React.FC<ServiceCardProps> = ({ item }: ServiceCardProps) => {
+export const ServiceCard: React.FC<ServiceCardProps> = ({ item, onClick }: ServiceCardProps) => {
     return (
-        <div className="card">
+        <div className="card" onClick={() => onClick(item.maps_location)}>
             <header className="card-header is-shadowless" style={{background: 'rgb(247, 248, 254)'}}>
                 <div className="box is-transparent is-shadowless">
                     <div className="media">

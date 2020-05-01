@@ -10,7 +10,8 @@
             "service_type": "Plumbing",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Col. Americana, Guadalajara"
+            "location": "Americana, Guadalajara",
+            "maps_location": "Colonia Americana, Guadalajara, Jalisco, México"
         },
         {
             "name": {
@@ -22,7 +23,8 @@
             "service_type": "Tailor",
             "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
             "payment_type": "TDC, and Truekx",
-            "location": "Col. Americana, Guadalajara"
+            "location": "Monraz, Guadalajara",
+            "maps_location": "Colonia Monraz, Guadalajara, Jalisco, México"
         },
         {
             "name": {
@@ -34,7 +36,8 @@
             "service_type": "Daycare",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Col. Monraz, Guadalajara"
+            "location": "Providencia, Guadalajara",
+            "maps_location": "Colonia Providencia, Guadalajara, Jalisco, México"
         },
         {
             "name": {
@@ -46,7 +49,8 @@
             "service_type": "IT consulting",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Col. Providencia, Guadalajara"
+            "location": "Americana, Guadalajara",
+            "maps_location": "Colonia Americana, Guadalajara, Jalisco, México"
         },
         {
             "name": {
@@ -58,7 +62,8 @@
             "service_type": "Tailor",
             "business_hours": "Mon - Fri from 12:00 to 21:00 hrs",
             "payment_type": "Cash, TDC, and Truekx",
-            "location": "Col. Providencia, Guadalajara"
+            "location": "Providencia, Guadalajara",
+            "maps_location": "Colonia Providencia, Guadalajara, Jalisco, México"
         },
         {
             "name": {
@@ -70,7 +75,8 @@
             "service_type": "Plumbing",
             "business_hours": "Mon - Sat from 13:00 to 20:00 hrs",
             "payment_type": "Cash and Truekx",
-            "location": "Col. Americana, Guadalajara"
+            "location": "Americana, Guadalajara",
+            "maps_location": "Colonia Americana, Guadalajara, Jalisco, México"
         }
     ]
 }
