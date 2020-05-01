@@ -3,7 +3,8 @@ import cx from 'classnames';
 import { SearchBar } from './SearchBars';
 import CommunityReviews from '../common/reviews/CommunityReviews';
 import data from '../../../datastore/landing_page.json';
-import restaurants from '../../../datastore/restaurants_view.json';
+import jobs from '../../../datastore/restaurants_view.json';
+import availableServices from '../../../datastore/services_view.json';
 import { MapResults } from './MapResults';
 
 const steps = [
@@ -37,8 +38,8 @@ const SectionTitle: React.FC<{}> = ({children}) => (
 );
 
 const searchMap = {
-    'servicios': restaurants.restaurants,
-    'empleos': []
+    'servicios': availableServices.restaurants,
+    'empleos': jobs.restaurants
 };
 
 const isActive = (selection: string | null, key: string) => selection && selection === key;
@@ -60,7 +61,7 @@ const DashboardContent = () => {
 
             {selectedSubcategory && selectedCategory && (
                 <div className="section">
-                    <MapResults results={searchResults} />
+                    <MapResults results={searchResults} type={selectedCategory} />
                 </div>
             )}
 

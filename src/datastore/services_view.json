@@ -1,45 +1,75 @@
 {
     "restaurants":[
         {
-            "name": "Juan Hernández",
+            "name": {
+                "first": "Juan",
+                "last": "Hernández"
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
             "rating": "4",
             "service_type": "Plumbing",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "payment_type": "Efectivo, TDC, y Truekx",
             "location": "Americana"
         },
         {
-            "name": "Jovita Gutiérrez",
+            "name": {
+                "first": "Jovita",
+                "last": "Gutiérrez"
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
             "rating": "5",
             "service_type": "Satrery",
             "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
+            "payment_type": "TDC, y Truekx",
             "location": "Americana"
         },
         {
-            "name": "Rosa Hernández",
+            "name": {
+                "first": "Rosa",
+                "last": "Hernández"
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
             "rating": "4",
             "service_type": "Daycare",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "payment_type": "Efectivo, TDC, y Truekx",
             "location": "Monraz"
         },
         {
-            "name": "Julia Cervantes",
+            "name": {
+                "first": "Julia",
+                "last": "Cervantes"
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
             "rating": "5",
             "service_type": "IT consulting",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
+            "payment_type": "Efectivo, TDC, y Truekx",
             "location": "Providencia"
         },
         {
-            "name": "Carmen Rosas",
+            "name": {
+                "first": "Carmen",
+                "last": "Rosas"
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
             "rating": "4",
             "service_type": "Sastrery",
             "business_hours": "Mon - Fri from 12:00 to 21:00 hrs",
+            "payment_type": "Efectivo, TDC, y Truekx",
             "location": "Providencia"
         },
         {
-            "name": "Vicente Laguna",
+            "name": {
+                "first": "Vicente",
+                "last": "Laguna"
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/19.jpg",
             "rating": "4",
             "service_type": "Plumbing",
             "business_hours": "Mon - Sat from 13:00 to 20:00 hrs",
+            "payment_type": "Efectivo y Truekx",
             "location": "Americana"
         }
     ]

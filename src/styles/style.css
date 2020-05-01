@@ -36,3 +36,12 @@
 .option-type.active img{
     border: 3px solid #3298dc;
 }
+
+/*Helpers*/
+.is-transparent {
+    background: transparent;
+}
+
+.card-icon {
+    margin-right: .5rem;
+}
