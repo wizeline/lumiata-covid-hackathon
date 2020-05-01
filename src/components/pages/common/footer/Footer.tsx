@@ -6,7 +6,7 @@ export const Footer = () => {
             <div className="box is-shadowless is-marginless">
                 <progress className="progress is-info is-small" value="100" max="100">45%</progress>
             </div>
-            <footer className="footer">
+            <footer className="footer is-custom">
                 <div className="columns">
                     <div className="column">
                         <ul>
@@ -18,9 +18,11 @@ export const Footer = () => {
                         </ul>
                     </div>
                     <div className="column">
-                        <p className="is-pulled-right">
-                            2020. Powered by Wizeline + Lumiata
-                        </p>
+                        <div className="footer-companies">
+                            <p className="has-text-right">
+                                2020. Powered by Wizeline + Lumiata
+                            </p>
+                        </div>
                     </div>
                 </div>
             </footer>

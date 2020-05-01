@@ -8,7 +8,7 @@ export interface Review {
     content: string;
     username: string;
     name: Name;
-    date: string;
+    date: number;
     userType: string;
     rating: number;
 }

@@ -6,7 +6,7 @@ import { Review } from '../../../../domain/review';
 const CommunityReviews = () => {
 
     return (
-        <div className="hero is-light">
+        <div className="hero is-custom">
             <div className="hero-body">
                 <div className="columns">
                     <div className="column is-4">
