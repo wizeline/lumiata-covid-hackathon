@@ -116,7 +116,7 @@ const DashboardContent = () => {
                         <br/>
                     </SectionTitle>
 
-                    <div className="hero is-light">
+                    <div className="hero is-custom">
                         <div className="hero-body">
                             <div className="section">
                                 <div className="tile is-ancestor">
@@ -149,14 +149,14 @@ const DashboardContent = () => {
                         Categoria de {selectedCategory}
                     </SectionTitle>
 
-                    <div className="hero is-light">
+                    <div className="hero is-custom">
                         <div className="hero-body">
                             <div className="section">
                                 <div className="columns">
                                     <div className="column is-1"></div>
                                     {data.categories.map((category, index) => (
                                         <div key={category.name} className="column is-2">
-                                            <div className="box is-shadowless category-option has-background-white-ter">
+                                            <div className="box is-shadowless category-option has-background-custom">
                                                 <figure
                                                     className="image container is-128x128"
                                                     onClick={() => updateSubcategory(category.name)}>

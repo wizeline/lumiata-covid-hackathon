@@ -1,5 +1,26 @@
 /*This file includes some custom look and feel*/
 
+@font-face {
+    font-family: 'Manrope';
+    src: url('../font/Manrope/static/Manrope-Regular.ttf');
+}
+
+:root {
+    --background-main-color: rgb(247, 248, 254);
+}
+
+.main-navbar {
+    padding: 1rem 2.5rem;
+    background: var(--background-main-color, white);
+}
+
+.hero.is-custom,
+.footer.is-custom,
+.has-background-custom
+{
+    background: var(--background-main-color, white);
+}
+
 .step-number {
     border: 3px solid #3298dc;
     border-radius: 60%;
@@ -44,4 +65,15 @@
 
 .card-icon {
     margin-right: .5rem;
+}
+
+.footer-companies {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-companies p {
+    width: 100%;
 }

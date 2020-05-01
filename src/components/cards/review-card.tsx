@@ -1,6 +1,9 @@
 import React from 'react';
+import { format } from 'date-fns';
 import { Review } from '../../domain/review';
 import { StarFilled } from "@ant-design/icons/lib";
+
+const DATE_FORMAT = 'MMMM dd, yyyy';
 
 type ReviewCardProps = {
     comment?: Review;
@@ -23,7 +26,7 @@ export const ReviewCard = ({ comment }: ReviewCardProps) => {
                             <p className="has-text-grey-light is-size-7">{comment.userType}</p>
                         </div>
                         <div className="media-right">
-                            <p className="has-text-right has-text-grey-light">{comment.date}</p>
+                            <p className="has-text-right has-text-grey-light">{format(comment.date, DATE_FORMAT)}</p>
                             <p className="has-text-right"><StarFilled className="has-text-info is-size-4" /> <span className="is-size-3">{comment.rating}</span></p>
                         </div>
                     </div>
