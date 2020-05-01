@@ -2,66 +2,120 @@
     "comments": [
         {
             "username": "Myra Utt",
+            "name": {
+                "first": "Myra",
+                "last": "Utt"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "Wow, that was one of the quickest replies! I really appreciate it."
+            "content": "Wow, that was one of the quickest replies! I really appreciate it.",
+            "avatar": "https://randomuser.me/api/portraits/women/1.jpg"
         },
         {
             "username": "Natacha Hinkle",
+            "name": {
+                "first": "Natacha",
+                "last": "Hinkle"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "I would recommend it to others, thanks so much Max."
+            "content": "I would recommend it to others, thanks so much Max.",
+            "avatar": "https://randomuser.me/api/portraits/women/11.jpg"
         },
         {
             "username": "Janiece Yau",
+            "name": {
+                "first": "Jeniece",
+                "last": "Yau"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "I love the dress that Nora made for me!"
+            "content": "I love the dress that Nora made for me!",
+            "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
         },
         {
             "username": "Dolores Mejía",
+            "name": {
+                "first": "Dolores",
+                "last": "Mejía"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "Great service so far!"
+            "content": "Great service so far!",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
         },
         {
             "username": "Juan Pérez",
+            "name": {
+                "first": "Juan",
+                "last": "Pérez"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "She did a really nice job with my shirts."
+            "content": "She did a really nice job with my shirts.",
+            "avatar": "https://randomuser.me/api/portraits/men/66.jpg"
         },
         {
             "username": "Francisco López",
+            "name": {
+                "first": "Francisco",
+                "last": "López"
+            },
             "date": "11/05/20",
-            "usertype": "Verified buyer",
+            "userType": "Verified buyer",
             "rating": 4,
-            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!"
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/men/16.jpg"
+        },
+        {
+            "username": "Alejandro Ortiz",
+            "name": {
+                "first": "Alejandro",
+                "last": "Ortiz"
+            },
+            "date": "11/05/20",
+            "userType": "Verified buyer",
+            "rating": 4,
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/men/24.jpg"
+        },
+        {
+            "username": "Miriam Jackson",
+            "name": {
+                "first": "Miriam",
+                "last": "Jackson"
+            },
+            "date": "11/05/20",
+            "userType": "Verified buyer",
+            "rating": 4,
+            "content": "Steve helped me distributing mouth covers to the kids in the street. Incredible attitude!",
+            "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
         }
     ],
     "categories":[
         {
-            "nombre": "Restaurants",
-            "icon": "<icon>"
+            "name": "Comida",
+            "icon": "/icons/Restaurants.svg"
         },
         {
-            "nombre": "Technology",
-            "icon": "<icon>"
+            "name": "Tecnología",
+            "icon": "/icons/Technology.svg"
         },
         {
-            "nombre": "Trading",
-            "icon": "<icon>"
+            "name": "Oficios",
+            "icon": "/icons/Services.svg"
         },
         {
-            "nombre": "Transportation",
-            "icon": "<icon>"
+            "name": "Transporte",
+            "icon": "/icons/Transport.svg"
         },{
-            "nombre": "Teaching",
-            "icon": "<icon>"
+            "name": "Aprendizaje",
+            "icon": "/icons/Learning.svg"
         }
     ]
 }

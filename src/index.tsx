@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './components/Routes';
+import 'bulma/css/bulma.css';
+import './styles/style.css';
 
 // TODO: Not working...
 require('dotenv').config();

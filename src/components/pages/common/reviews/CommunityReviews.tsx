@@ -1,35 +1,42 @@
 import React from 'react';
-import { Col, Row, Card } from 'antd';
-import 'antd/dist/antd.css';
+import { ReviewCard } from '../../../cards/review-card';
+import data from '../../../../datastore/landing_page.json';
+import { Review } from '../../../../domain/review';
 
 const CommunityReviews = () => {
+
     return (
-        <Row>
-            <Col span={24}>
-                <Row>
-                    <Col span={8}>
-                        <Card hoverable>Review 1</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 2</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 3</Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col span={8}>
-                        <Card hoverable>Review 4</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 5</Card>
-                    </Col>
-                    <Col span={8}>
-                        <Card hoverable>Review 6</Card>
-                    </Col>
-                </Row>
-            </Col>
-        </Row>
+        <div className="hero is-light">
+            <div className="hero-body">
+                <div className="columns">
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[0] as unknown) as Review} />
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[1] as unknown) as Review} />
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[2] as unknown) as Review} />
+                    </div>
+                </div>
+
+                <div className="columns">
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[3] as unknown) as Review} />
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[4] as unknown) as Review} />
+                    </div>
+
+                    <div className="column is-4">
+                        <ReviewCard comment={(data.comments[5] as unknown) as Review} />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 

@@ -5,7 +5,7 @@ import Header from '../common/header/AuthUserHeader';
 import SearchBar from '../common/searchbar/SearchBar';
 import JobDetails from './JobDetails';
 import CommunityReviews from '../common/reviews/CommunityReviews';
-import Footer from '../common/footer/Footer';
+/* import Footer from '../common/footer/Footer'; */
 
 const Job = () => {
     return (
@@ -15,7 +15,7 @@ const Job = () => {
                 <SearchBar />
                 <JobDetails />
                 <CommunityReviews />
-                <Footer />
+                {/* <Footer /> */}
             </Layout>
         </div>
     );
