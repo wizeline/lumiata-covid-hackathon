@@ -9,7 +9,7 @@
             "rating": "4",
             "service_type": "Plumbing",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
-            "payment_type": "Efectivo, TDC, y Truekx",
+            "payment_type": "Cash, TDC, and Truekx",
             "location": "Americana"
         },
         {
@@ -19,9 +19,9 @@
             },
             "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
             "rating": "5",
-            "service_type": "Satrery",
+            "service_type": "Tailor",
             "business_hours": "Tue - Sun from 15:00 to 23:00 hrs",
-            "payment_type": "TDC, y Truekx",
+            "payment_type": "TDC, and Truekx",
             "location": "Americana"
         },
         {
@@ -33,7 +33,7 @@
             "rating": "4",
             "service_type": "Daycare",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
-            "payment_type": "Efectivo, TDC, y Truekx",
+            "payment_type": "Cash, TDC, and Truekx",
             "location": "Monraz"
         },
         {
@@ -45,7 +45,7 @@
             "rating": "5",
             "service_type": "IT consulting",
             "business_hours": "Mon - Fri from 9:00 to 18:00 hrs",
-            "payment_type": "Efectivo, TDC, y Truekx",
+            "payment_type": "Cash, TDC, and Truekx",
             "location": "Providencia"
         },
         {
@@ -55,9 +55,9 @@
             },
             "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
             "rating": "4",
-            "service_type": "Sastrery",
+            "service_type": "Tailor",
             "business_hours": "Mon - Fri from 12:00 to 21:00 hrs",
-            "payment_type": "Efectivo, TDC, y Truekx",
+            "payment_type": "Cash, TDC, and Truekx",
             "location": "Providencia"
         },
         {
@@ -69,7 +69,7 @@
             "rating": "4",
             "service_type": "Plumbing",
             "business_hours": "Mon - Sat from 13:00 to 20:00 hrs",
-            "payment_type": "Efectivo y Truekx",
+            "payment_type": "Cash and Truekx",
             "location": "Americana"
         }
     ]

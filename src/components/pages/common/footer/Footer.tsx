@@ -10,11 +10,11 @@ export const Footer = () => {
                 <div className="columns">
                     <div className="column">
                         <ul>
-                            <li>Contacto</li>
+                            <li>Contact</li>
                             <br/>
-                            <li>Acerca de nosotros</li>
+                            <li>About us</li>
                             <br/>
-                            <li>Politicas de privacidad</li>
+                            <li>Privacy policy</li>
                         </ul>
                     </div>
                     <div className="column">

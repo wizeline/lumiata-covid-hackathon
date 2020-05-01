@@ -11,17 +11,17 @@ const steps = [
     {
         key: 'first',
         icon: '/icons/LandingPage/store-icon.png',
-        text: 'Selecciona la categoria que mejor se adapte a lo que necesitas ahora',
+        text: 'Choose the category that fits you the best',
     },
     {
         key: 'second',
         icon: '/icons/LandingPage/mac-icon.png',
-        text: 'Conecta con el empleo o servicio',
+        text: 'Contact the person that offered the job or service',
     },
     {
         key: 'third',
         icon: '/icons/LandingPage/clap-hands.png',
-        text: 'Cubre lo que necesitas, mientras apoyas a tu comunidad mas cercana',
+        text: 'Get what you were looking for while helping the community',
     },
 ];
 
@@ -68,7 +68,7 @@ const DashboardContent = () => {
             {!selectedSubcategory && (
                 <>
                     <SectionTitle>
-                        También puedes buscar algo más especifico...
+                        You can do a more specific search...
                     </SectionTitle>
 
                     <div className="section">
@@ -82,7 +82,7 @@ const DashboardContent = () => {
                                     </figure>
                                     <br/>
                                     <h4 className="subtitle is-6">
-                                        Buscar un empleo
+                                        Search a job
                                     </h4>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ const DashboardContent = () => {
                                     </figure>
                                     <br/>
                                     <h4 className="subtitle is-6">
-                                        Buscar un servicio
+                                        Search a service
                                     </h4>
                                 </div>
                             </div>
@@ -109,9 +109,9 @@ const DashboardContent = () => {
                 <>
                     <SectionTitle>
                         <br/>
-                        Ahora, más que nunca, <br/>
-                        aydemos a fortalcecer nuestra comunidad. <br/>
-                        Descubre cómo:
+                        Now more than ever, <br/>
+                        it's tome to make our community stronger. <br/>
+                        Take a look how:
                         <br/>
                         <br/>
                     </SectionTitle>
@@ -130,7 +130,7 @@ const DashboardContent = () => {
                                                     <img className="is-rounded" src={step.icon || ''} />
                                                 </figure>
                                                 <div className="box is-shadowless step-description">
-                                                    <p className="subtitle is-4">{step.text}</p>
+                                                    <p className="subtitle is-4" style={{textAlign: 'center'}}>{step.text}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -146,7 +146,7 @@ const DashboardContent = () => {
                 <>
                     <SectionTitle>
                         <br/>
-                        Categoria de {selectedCategory}
+                        {selectedCategory === 'servicios'? 'Services': 'Jobs'} categories
                     </SectionTitle>
 
                     <div className="hero is-custom">
@@ -179,8 +179,8 @@ const DashboardContent = () => {
                 <>
                     <SectionTitle>
                         <br/>
-                        Conoce los comentarios<br/>
-                        de las personas en tu comunidad<br/>
+                        Get to know your community<br/>
+                        through some of their comments<br/>
                         <br/>
                     </SectionTitle>
 

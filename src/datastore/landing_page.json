@@ -99,22 +99,22 @@
     ],
     "categories":[
         {
-            "name": "Comida",
+            "name": "Food",
             "icon": "/icons/Restaurants.svg"
         },
         {
-            "name": "Tecnología",
+            "name": "Tech",
             "icon": "/icons/Technology.svg"
         },
         {
-            "name": "Oficios",
+            "name": "Services",
             "icon": "/icons/Services.svg"
         },
         {
-            "name": "Transporte",
+            "name": "Transport",
             "icon": "/icons/Transport.svg"
         },{
-            "name": "Aprendizaje",
+            "name": "Learning",
             "icon": "/icons/Learning.svg"
         }
     ]

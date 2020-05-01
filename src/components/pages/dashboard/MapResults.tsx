@@ -41,14 +41,14 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
                         <div className="field">
                             <div className="select is-fullwidth">
                                 <select>
-                                    <option>Servicios</option>
+                                    <option>Jobs</option>
                                 </select>
                             </div>
                         </div>
                         <div className="field">
                             <div className="select is-fullwidth">
                                 <select>
-                                    <option>Oficios</option>
+                                    <option>Services</option>
                                 </select>
                             </div>
                         </div>

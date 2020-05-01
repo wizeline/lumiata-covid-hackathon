@@ -32,17 +32,17 @@ export const Navbar: React.FC<{}> = () => {
                         <div className="navbar-item">
                             <div className="buttons">
                                 <a className="button">
-                                    <strong>Iniciar Session</strong>
+                                    <strong>Login</strong>
                                 </a>
                                 <a className="button is-info">
-                                    Registrarme
+                                    Register
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div className="box is-shadowless">
+            <div className="box is-shadowless" style={{padding: 0}}>
                 <progress className="progress is-info is-small" value="100" max="100">45%</progress>
             </div>
         </>
