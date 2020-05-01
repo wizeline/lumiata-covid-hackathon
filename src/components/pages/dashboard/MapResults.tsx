@@ -69,7 +69,7 @@ export const MapResults: React.FC<MapResultsProps> = ({results, type}: MapResult
                                 </div>
                             );
                         }
-                        return <div className="box is-shadowless"><JobCard item={item} key={item.name}/></div>
+                        return <div className="box is-shadowless"><JobCard item={item} key={item.name} onClick={(newLocation: string) => updateLocation(newLocation)}/></div>
                     })}
                     <div className="section">
                         <nav className="pagination is-small is-centered" role="navigation" aria-label="pagination">

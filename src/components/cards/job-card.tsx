@@ -3,11 +3,12 @@ import { Job } from '../../domain/service';
 
 interface ServiceCardProps {
     item: Job;
+    onClick: any;
 }
 
-export const JobCard: React.FC<ServiceCardProps> = ({ item }: ServiceCardProps) => {
+export const JobCard: React.FC<ServiceCardProps> = ({ item, onClick }: ServiceCardProps) => {
     return (
-        <div className="card">
+        <div className="card" onClick={() => onClick(item.maps_location)}>
             <header className="card-header is-shadowless" style={{background: 'rgb(247, 248, 254)'}}>
                 <p className="card-header-title">
                     {item.name}

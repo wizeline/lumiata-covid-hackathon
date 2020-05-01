@@ -15,4 +15,5 @@ export interface Job {
     job_schedule: string;
     job_type: string;
     location: string;
+    maps_location: string;
 }
