@@ -31,7 +31,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({ item }: ServiceCardPro
                     <p><img className="card-icon" src="/icons/wallet-sharp.svg" alt="location" width={20}/>{item.payment_type}</p>
 
                     <div className="has-text-centered">
-                        <button className="button is-info">Contactar</button>
+                        <button className="button is-info">Contact</button>
                     </div>
                 </div>
             </div>
